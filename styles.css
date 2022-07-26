@@ -1,0 +1,372 @@
+/* ********** Barra de Navegación ********* */
+#nav-bar {
+    width: 100%;
+    height: 6vh;
+    position:relative; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #000;
+    color: #ffff;
+    font-family: Helvetica;
+    font-size:1.5em;
+    margin: 0.5em 0 0.4em 0;
+}
+
+.logo {
+    display: flex;
+    padding:0 2em;
+}
+
+.logo p {
+    margin:0.5em;
+}
+
+.rrss {
+    display: flex;
+    margin: 0 1.5em;
+    padding:0 0.2em;
+}
+
+.rrss p {
+    display: flex;
+    margin: 0.5em;
+
+}
+
+input[type=submit] {
+    width: 5em;
+    height: 2em;
+    font-size: 0.6em;
+    font-weight: bold;
+    color: #fff;
+    background: #00FF;
+    border-radius: 0.5em;
+    border: 1px solid #66add6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+    margin: 0.9em 0.5em;
+}
+
+/* ********** Inicio Container ********** */
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    height: 32%;
+    display: inline-block;
+    margin: 0.em 0 0.3em 0;
+}
+
+/* ********** main ********** */
+
+.main {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    display: block;
+    border: solid 2px #000;
+    border-radius: 1em;
+    box-shadow: 0px 5px 8px darkgrey;
+    /*margin: 0 0 0.5em 0:*/
+    transition: all .5s ease-in-out;
+}
+
+.top {
+    position: absolute;
+    width: 100%;
+    height: 22em;
+    background-image: url(file:///C:/Users/José%20Luis/Desktop/linkedin/fondo-AP.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+}
+
+.main .fa {
+    position: relative;
+    top: 18em;
+    left: 10em;
+    font-size: 1em;
+}
+
+.pic {
+    background-image: url("file:///C:/Users/José%20Luis/Desktop/linkedin/foto_JLGE.jpg");
+    background-size: cover;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    position: relative;
+    top: 19.5em;
+    left: 4em;
+    box-shadow: 0px 3px 5px darkgrey;
+    border: solid 2px white;
+    transition: all 1s ease-in-out;
+}
+
+.bottom {
+    position: absolute;
+    top: 24em;
+    left: 1em;
+    line-height: 1;
+}
+
+.bottom h3 {
+    font-family: Arial;
+    font-size: 1.5rem;
+    margin: 1em 0 0 0;
+}
+
+.bottom p {
+    color: #676767;
+    font-weight: 100;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    top: 37em;
+    line-height: 1.5;
+    margin: 0.5em 0 0 0;
+}
+
+.botones {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    margin: 0.5em 0 0 0;
+}
+
+.btn {
+    background: #00FF;
+    color: #fff;
+    width: auto;
+    height: 2.5em;
+    color: #fff;
+    background: #00FF;
+    border-radius: 0.5em;
+    border: 1px solid #66add6;
+    box-shadow: 0 5px 15px rgba(0, 0, 255, 0.35);
+    cursor: pointer;
+}
+
+.btn p {
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: bold;
+    margin: 0.1em 0.5em;
+}
+
+.btn1 {
+    background: #fff;
+    height: 2.5em;
+    border-radius: 0.5em;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+
+.btn1 p {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0.2em 0.5em;
+}
+
+/* ********** main 1 ********** */
+
+.main1 {
+    width: 100%;
+    height: 7vh;
+    position: relative;
+    display: inline-block;
+    border: solid 2px #000;
+    border-radius: 1em;
+    box-shadow: 0px 5px 8px darkgrey;
+    margin: 0.4em 0 0 0;
+}
+
+.texto {
+    position: absolute;
+    left: 1em;
+    line-height: 1;
+}
+
+.texto h3 {
+    font-family: Arial;
+    font-size: 1.2rem;
+    margin: 0.5em 0 0 0;
+}
+
+.texto p {
+    color: #676767;
+    font-weight: 100;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    top: 37em;
+    line-height: 1.5;
+    margin: 0.5em 0 0.5em 0;
+}
+
+/* ********** main 2 ********** */
+
+.main2 {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    display: inline-block;
+    border: solid 2px #000;
+    border-radius: 1em;
+    box-shadow: 0px 5px 8px darkgrey;
+    margin: 0.1em 0 0 0;
+}
+
+.titulo {
+    position: relative;
+    left: 1em;
+    line-height: 1;
+}
+
+.titulo h3 {
+    font-family: Arial;
+    font-size: 1rem;
+    margin: 0.5em 0 0 0;
+}
+
+.titulo h4 {
+    font-family: Arial;
+    font-size: 0.9rem;
+    margin: 0.3em 0 0 0;
+}
+
+.titulo p {
+    color: #676767;
+    font-weight: 100;
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+    top: 37em;
+    line-height: 1.5;
+    margin: 0.3em 0 0 0;
+}
+
+/* ********** main 3 ********** */
+
+.main3 {
+    width: 100%;
+    height: 25vh;
+    position: relative;
+    display: inline-block;
+    border: solid 2px #000;
+    border-radius: 1em;
+    box-shadow: 0px 5px 8px darkgrey;
+    margin: 2em 0 0 0;
+
+}
+
+.indices {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.tecnologia {
+    margin: 0.5em 0.6em;
+}
+
+.tecnologia h5 {
+    text-align: center;
+    font-family: Arial;
+    font-size: 1em;
+    margin: 0.5em;
+}
+
+/* Inicio del Código de los Graficos Circulares Animados de Progreso */
+
+@property --p{
+    syntax: '<number>';
+    inherits: true;
+    initial-value: 0;
+}
+  
+.pie {
+    --p:20;
+    --b:0.6em;
+    --c:darkred;
+    --w:5.2em;
+    
+    width:var(--w);
+    aspect-ratio:1;
+    position:relative;
+    display:inline-grid;
+    margin:5px;
+    place-content:center;
+    font-size:1.5em;
+    font-weight:bold;
+    font-family:sans-serif;
+}
+
+.pie:before,
+.pie:after {
+    content:"";
+    position:absolute;
+    border-radius:50%;
+}
+
+.pie:before {
+    inset:0;
+    background:
+      radial-gradient(farthest-side,var(--c) 98%,#0000) top/var(--b) var(--b) no-repeat,
+      conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+            mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+}
+
+.pie:after {
+    inset:calc(50% - var(--b)/2);
+    background:var(--c);
+    transform:rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
+}
+
+.animate {
+    animation:p 1s .5s both;
+}
+
+.no-round:before {
+    background-size:0 0,auto;
+}
+
+.no-round:after {
+    content:none;
+}
+
+ @keyframes p {
+    from{--p:0}
+}
+
+/* Fin del Código de los Graficos Circulares Animados de Progreso */
+
+/* ********** main 4 ********** */
+
+.main4 {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: inline-block;
+    border: solid 2px #000;
+    border-radius: 1em;
+    box-shadow: 0px 5px 8px darkgrey;
+    margin: 0.1em 0 0 0;
+}
+
+.main4 h2 {
+    font-family: Arial;
+    font-size: 1em;
+    margin: 1.5em 0 1em 1em;
+}
+
+@media (max-width: 700px){
+    
+    .main {
+      margin: auto;
+    }
+}
+
